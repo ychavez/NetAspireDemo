@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{DBFD31FE-88B2-439E-ABDD-101D9F780B31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{81C837FF-67AD-4371-BADE-362C766B60A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frontend", "Frontend\Frontend.csproj", "{81C837FF-67AD-4371-BADE-362C766B60A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAspireDemo.AppHost", "NetAspireDemo.AppHost\NetAspireDemo.AppHost.csproj", "{820F3FA5-1E19-4199-BF23-ACB268CA1D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetAspireDemo.ServiceDefaults", "NetAspireDemo.ServiceDefaults\NetAspireDemo.ServiceDefaults.csproj", "{C23DD77D-C894-4AA7-9A43-6E1FD8FFBC11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820F3FA5-1E19-4199-BF23-ACB268CA1D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820F3FA5-1E19-4199-BF23-ACB268CA1D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820F3FA5-1E19-4199-BF23-ACB268CA1D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820F3FA5-1E19-4199-BF23-ACB268CA1D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23DD77D-C894-4AA7-9A43-6E1FD8FFBC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23DD77D-C894-4AA7-9A43-6E1FD8FFBC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23DD77D-C894-4AA7-9A43-6E1FD8FFBC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23DD77D-C894-4AA7-9A43-6E1FD8FFBC11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
