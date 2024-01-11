@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{81C837FF-67AD-4371-BADE-362C766B60A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAspireDemo.AppHost", "NetAspireDemo.AppHost\NetAspireDemo.AppHost.csproj", "{704D2A7D-5835-4C51-903C-954488924ECA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetAspireDemo.ServiceDefaults", "NetAspireDemo.ServiceDefaults\NetAspireDemo.ServiceDefaults.csproj", "{D08F7352-7CB4-4D9F-BA9F-542421527173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C837FF-67AD-4371-BADE-362C766B60A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704D2A7D-5835-4C51-903C-954488924ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704D2A7D-5835-4C51-903C-954488924ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704D2A7D-5835-4C51-903C-954488924ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704D2A7D-5835-4C51-903C-954488924ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08F7352-7CB4-4D9F-BA9F-542421527173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08F7352-7CB4-4D9F-BA9F-542421527173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08F7352-7CB4-4D9F-BA9F-542421527173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08F7352-7CB4-4D9F-BA9F-542421527173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,14 +3,18 @@ using Frontend.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 // Add services to the container.
 builder.Services.AddRazorComponents();
 builder.Services.AddHttpClient<WeatherApiClient>(x =>
 {
-    x.BaseAddress = new Uri("http://localhost:5019/");
+    x.BaseAddress = new Uri("http://backend/");
 });
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
